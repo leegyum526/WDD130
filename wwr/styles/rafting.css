@@ -22,35 +22,34 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);  
     }
-p {
-    padding: 25px;
-}
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
-}
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-}
-
-nav a {
-    display: block;
-    color: var(--nav-link-color);
+footer a {
     text-decoration: none;
-    padding: 1rem;
 }
-
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+body {
+    max-width: 960px;
 }
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color)
+.hero {
+    position: relative
 }
-footer img {
-    width: 50px;
+.h1,
+.article {
+    top: 0;
+    left: 0;
+}
+.hero img {
+    display: block;
+    width: 100%;
     height: auto;
+}
+.h1,
+.article {
+    position: absolute;
+}
+.article img {
+    float: right;
+    margin: 10px
+}
+article {
+    background-color: #DCC9B6;
+    opacity: 1;
 }
