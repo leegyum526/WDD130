@@ -1,66 +1,56 @@
-@import url('https://fonts.google.com/specimen/Sora');
 body {
     font-family: sans-serif;
     font-size: 1.2em;
     color: #ffffff;
     background: #fff;
-}
-
-form {
+  }
+  
+  form {
     max-width: 650px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid #000;
     border-radius: 0.5rem;
     background-color: seagreen;
-}
-
-fieldset {
+  }
+  
+  h1 {
     margin: 1rem;
-    border: 1px solid #000;
-    padding: 1rem;
-}
-
-legend {
+    font-size: 1.5em;
+    color: #000;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.1em;
     color: #fff;
-    font-size: 1.3em;
-}
-
-label {
-    text-align: right;
-    padding-right: 1rem;
-}
-
-input, select, textarea {
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
     padding: 0.5rem;
-    font-size: 1.1rem;
-}
-
-input[type="checkbox"] {
-    width: 20px;
-    height: 22px;
-    vertical-align: bottom;
-}
-
-button {
-    margin: 1rem;
+    font-size: 1em;
+  }
+  
+  select {
+    margin-top: 0.5rem;
+  }
+  
+  input[type="submit"] {
+    margin-top: 1rem;
     background-color: navy;
     color: #fff;
     border: none;
     border-radius: 0.5rem;
     padding: 0.75rem;
     font-size: 1.2rem;
-}
-
-button:hover {
+  }
+  
+  input[type="submit"]:hover {
     background-color: darkgreen;
-}
-
-footer {
-    margin: 1rem auto 0;
-    max-width: 650px;
-    text-align: center;
-    font-size: 0.8em;
-    color: #777;
-    border-top: 1px solid #ccc;
-}
+  }
+  
